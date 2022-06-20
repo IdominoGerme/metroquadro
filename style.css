@@ -1,3 +1,8 @@
+/* ! basestyle */
+body{font-family:Roboto,sans-serif;;font-size:16px;}
+a{text-decoration: }
+/* ! basestyle */
+
 /* ! nav start */
 .header{
   width:100%;
@@ -39,8 +44,22 @@ cursor: pointer;
 /* ! hero start */
 .hero{
   width: 100%;
-  height: 300px;
-  background: #4754;}
+  height: 600px;
+  background: #4754;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.09)),
+  url('pietra.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.hero__content{
+  width: 100%;
+  max-width: 1350px;
+  margin-left: 100px;
+  color: #fff;
+}
+
 /* ! hero end */
 
 /* ! footerstart */
