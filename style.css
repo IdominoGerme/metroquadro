@@ -9,7 +9,9 @@ background-color: white;}
 h1{
   padding-left: var(--padding-default);
   font-size: 48px;
+  margin-bottom: 20px;
 }
+
 h2{
   /* padding: 20px; */
   font-size: 28px;
@@ -27,6 +29,7 @@ h2{
 
 /* ! nav start */
 .header{
+  z-index: 1;
   width:100%;
   position:fixed;
   padding: 30px;
@@ -92,15 +95,20 @@ cursor: pointer;
 }
 
 /* ! hero end */
-
+/* about start */
 .about{
   margin-top: 50px;
-
+  margin-bottom: 50px;
   margin-inline: 100px;
 }
-.about p{margin-top: 20px}
+.about p{margin-top: 10px}
+/* about end */
 
-
+/* Progettistart */
+.progetti{
+  margin-inline:100px;
+}
+/* progetti end */
 /* ! footerstart */
 .footer{
   width:100%;
