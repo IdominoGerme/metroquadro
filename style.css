@@ -112,9 +112,20 @@ cursor: pointer;
 /* progetti end */
 
 /* preventivostart */
-
-
+.preventivo{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-inline: 100px;
+}
 /* preventivoend */
+
+/* contatti start */
+.contatti{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-inline: 100px;
+}
+/* contatti end */
 
 
 /* ! footerstart */
