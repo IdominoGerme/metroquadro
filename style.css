@@ -1,10 +1,4 @@
-:root {
-  /* --padding-default: 100px; */
-}
 
-:root{
-
-}
 /* ! basestyle */
 
 body{font-family:'Roboto',sans-serif;font-size:16px;
@@ -22,6 +16,7 @@ h2{
   margin: auto;
   padding-left: var(--padding-default);
 }
+
 .big-text{font-size: 70px;font-weight: 900;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
