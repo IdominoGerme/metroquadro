@@ -111,7 +111,7 @@ line-height:1.4;}
 /* Progettistart */
 .progetti{
   margin-inline:100px;
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 /* progetti end */
 
@@ -158,6 +158,29 @@ margin-bottom: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-inline: 100px;
+}
+.principale{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;}
+
+.item{
+      width: 6rem;
+      height: 6rem;
+      border: 2px solid black;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+.item-s{
+ width: 100%;
+ height: 47%;
+ gap:5px;
+ background:black;
 }
 /* contatti end */
 
