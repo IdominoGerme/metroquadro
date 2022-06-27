@@ -1,7 +1,8 @@
 
 /* ! basestyle */
 
-body{font-family:'Roboto',sans-serif;font-size:16px;
+body{font-family:'Roboto',sans-serif;
+font-size:16px;
 background-color: white;}
 
 h1{
@@ -17,14 +18,32 @@ h2{
   padding-left: var(--padding-default);
 }
 
-.big-text{font-size: 70px;font-weight: 900;}
+.big-text{font-size: 70px;
+  font-weight: 900;
+  font-family: 'kallisto', sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
 .med-text{font-size: 40px;}
+
 .normal-text{font-size: 20px;}
+
 .small-text{font-size: 14px;}
 
-.intro-text{text-transform: uppercase; font-size: 20px;font-weight: bold;}
+.intro-text{
+  font-family: 'kallisto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;}
 
+.sub {
+text-transform: uppercase; font-size: 20px;font-weight: bold;
+}
 /* ! basestyle */
+
 
 /* ! nav start */
 .header{
@@ -63,9 +82,8 @@ h2{
 text-decoration: underline;
 cursor: pointer;
 }
-
-
 /* ! nav end */
+
 
 /* ! hero start */
 .hero{
@@ -75,20 +93,31 @@ cursor: pointer;
   display: flex;
   align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.09)),
-  url('pietra.jpg') no-repeat center center;
+  url('pietra2.gif') no-repeat center center;
   background-size: cover;
 }
 
 .hero__content{
   width: 100%;
-  max-width: 1350px;
-  padding: 30px;
-  padding-left: 60px;
-  color: #fff;
+      max-width: 1350px;
+      height: 574px;
+      /* margin-inline: 437px; */
+      color: #fff;
+      margin-top: 393px;
 }
-
-
+.scro{
+  width: 100%;
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+.scro img{
+ width: 300px;
+ height: 180px;
+}
 /* ! hero end */
+
+
 /* about start */
 .about{
   margin-top: 50px;
@@ -106,6 +135,7 @@ cursor: pointer;
   line-height:1.6;}
 /* about end */
 
+
 /* Progettistart */
 .progetti{
   margin-inline:100px;
@@ -118,6 +148,7 @@ cursor: pointer;
   font-style: normal;
 }
 /* progetti end */
+
 
 /* preventivostart */
 .preventivo{
@@ -163,6 +194,7 @@ input.comm.c {
   }
 /* preventivoend */
 
+
 /* contatti start */
 .contatti{
   margin-top: 50px;
@@ -182,14 +214,15 @@ input.comm.c {
   justify-content: space-evenly;}
 
 .item{
-      width: 6rem;
-      height: 6rem;
+      width: 347px;
+      height: 360px;
       border: 2px solid black;
       background: white;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
+      background-color: #6E6E6E;
 }
 
 .item-s{
@@ -252,11 +285,10 @@ input.comm.c {
   font-weight: 1000;
   font-style: normal;
 }
-
 /* ! footerend */
 
 
-
+/* media start */
 @media screen and (max-width: 768px) {
   .hero__content{
     width: 100%;
@@ -265,6 +297,7 @@ input.comm.c {
     color: #fff;
   }
 }
+/* media End */
 
 
 
