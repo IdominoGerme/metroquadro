@@ -163,14 +163,14 @@ cursor: pointer;
   font-style: normal;
   padding-left: var(--padding-default);
   font-size: 48px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .preventivo p{
   font-weight:300;
   padding-left: var(--padding-default);
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 input.comm.c {
