@@ -33,16 +33,20 @@
 <!--nav start-->
 <div class="hero">
   <div class="hero__content">
-    <p  align="center" class="intro-text">Laboratorio</p>
-    <h1 align="center" class="big-text" style="margin-bottom:30px">Metro Quadro</h1>
-    <p align="center" class="sub"> Costruiamo i tuoi spazi! </p>
+    <p   class="intro-text">Laboratorio</p>
+    <h1  class="big-text" style="margin-bottom:30px">Metro Quadro</h1>
+    <p  class="sub"> Costruiamo i tuoi spazi! </p>
     <div class="scro">
         <img   src="scrool.gif" alt="">
     </div>
   </div>
+s
 </div>
 <!--hero end-->
 
+  <div class="divisore1">
+    <img src="divisore 1.gif" alt="">
+  </div>
 
 <!-- start about-->
 <div class="about">
@@ -53,6 +57,7 @@
     <p> Fontanarosa, in provincia di Avellino, da 5 generazioni l’azienda è impegnata nella lavorazione e valorizzazione della pietra bianca di Fontanarosa e della breccia Irpina. L'azienda è cresciuta coniugando una forte identità territoriale con una continua ricerca di nuovi linguaggi espressivi, legati all'esperienza delle mani sapienti di numerose generazioni di scalpellini e scultori. Metroquadro propone una variegata produzione che và dagli elementi architettonici per l'edilizia, arredo urbano, complementi di arredo, camini, fontane, insztallazioni artistiche, sculture.</p>
 </div>
 <!-- End about-->
+
 
 <!-- start Progetti-->
 
@@ -91,6 +96,10 @@
 </div>
 <!-- end Progetti-->
 
+<div class="divisore3">
+  <img width="50%"src="div2 gif.gif" alt="">
+  <img width="50%"src="div2 gif.gif" alt="">
+</div>
 
 <!-- start preventivo-->
 <div id="section3" class="preventivo">
@@ -139,6 +148,29 @@
   <p>MetroQuadro s.r.l</p>
 </div>
 <!--footer end-->
+<!-- dare padding top preventivo -->
+<!-- startscript -->
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- end script -->
 </body>
