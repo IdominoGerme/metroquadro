@@ -385,15 +385,6 @@ input.comm.c {
       align-items: center;
   }
 
-  .menu {
-position:fixed;
-      position: absolute;
-      top: 0;
-      left: 50%;
-
-      background: red;
-      height: 100vh;
-  }
 .logo img{margin-left: 0px;}
 
 .big-text{
@@ -405,16 +396,34 @@ position:fixed;
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+.footer_menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 .footer_menu li{
   display: inline-block;
-  margin: 0 10 0 10;
+
   padding-left: 0px;
   padding-right: 0px;
 }
 
 
 
-
+.menu {
+    display: flex;
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: red;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 
 
