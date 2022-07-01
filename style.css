@@ -391,16 +391,16 @@ input.comm.c {
 
   .ham{
     display: block;
-    width: 30px;
+    width: 50px;
     height: 30px;
-    border:1px solid white;
-    top: 40px;
+    /* border:1px solid white; */
+    top: 36px;
     right: 30px;
     position: absolute;
     z-index: 4
   }
 .ham span{
-  background: #fff;height: 3px;width: 100%;
+  background: #2e282a; height: 4px;width: 100%; display: block; margin-bottom: 5px;
 }
 
 .logo img{margin-left: 0px;}
@@ -435,11 +435,22 @@ input.comm.c {
     position: absolute;
     top: 0;
     left: 50%;
-    background: red;
+    background: #2e282a87;
     height: 100vh;
 }
 .menu li{
   display: block;
+}
+.menu li a {
+    font-family: 'kallisto', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    display: block;
+    /* padding-top: 15px; */
+    margin-inline: 20px;
+    text-decoration: none;
+    color: #e4dfda;
+    font-size: 25px;
 }
 
 .about p {
@@ -459,7 +470,7 @@ hr{
   margin-top: 10px;
   margin-bottom: 10px;
   border-top: 3px solid #2e282a;
-opacity: (0)}
+}
 
 .about h2{
   font-size:20px;
