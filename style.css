@@ -429,7 +429,6 @@ input.comm.c {
 }
 
 
-
 .menu {
     transition: all 1s cubic-bezier(.215, .61, .355, 1);
     display: flex;
