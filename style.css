@@ -499,7 +499,11 @@ height: 100%;
 
 
 
-
+@media screen and (max-width: 332px) {
+.big-text{
+  font-size: 44px;
+}
+}
 
 
 
