@@ -253,19 +253,6 @@ input.comm.c {
   justify-content: space-evenly;}
 
 
-.item{
-
-  width: 259px;
-  height: 200px;
-  border: 2px solid black;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: #6E6E6E;
-  border-radius:4px 4px 4px 4px;
-}
 /* contatti end */
 
 
@@ -328,19 +315,27 @@ input.comm.c {
 }
 
 .f {
+    border: solid;
     width: 100%;
     padding: 30px;
+    /* padding-bottom: 50px; */
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-}
 .c1 {
-    width: 50%;
-    text-align: start;}
+    width: 500px;
+    /* text-align: left; */
+    padding: 10px;
+}
 .c2 {
-    width: 50%;
-    text-align: left;
+    width: 500px;
+    /* text-align: left; */
+    padding: 10px;
+}
+.metro{
+  padding: 20px;
 }
 
 /* ! footerend */
@@ -499,9 +494,9 @@ height: 100%;
 
 
 
-@media screen and (max-width:332px) {
+@media screen and (max-width: 332px) {
 .big-text{
-  font-size: 40px;
+  font-size: 44px;
 }
 }
 
