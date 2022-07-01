@@ -499,9 +499,9 @@ height: 100%;
 
 
 
-@media screen and (max-width: 332px) {
+@media screen and (max-width:332px) {
 .big-text{
-  font-size: 44px;
+  font-size: 40px;
 }
 }
 
