@@ -476,6 +476,7 @@ input.comm.c {
     flex-wrap: wrap;
     justify-content: center;
   font-size: small;
+  line-height: 1.3;
 }
 
 .c1 {
