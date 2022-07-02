@@ -179,6 +179,82 @@ cursor: pointer;
 }
 /* progetti end */
 
+.materiali{
+margin-inline:5vw;
+}
+.materiali h1{
+    font-family: 'kallisto', sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    padding-left: var(--padding-default);
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+    /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+    cursor: pointer;
+    transition: 0.4s;
+}
+.card .card_image {
+  width: inherit;
+  height: inherit;
+}
+.card p {
+    /* width: 100%; */
+    display: flex;
+    /* height: 100%; */
+    justify-content: center;
+}
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  color: #2e282a;
+  font-family: 'kallisto', sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  filter: invert();
+  transform: scale(0.9, 0.9);
+
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
 /* preventivostart */
 .preventivo{
 
@@ -223,7 +299,7 @@ input.comm.c {
       /* display: flex; */
       float: right;
       padding: 20px;
-      background: #161615;
+      background: #2e282a;
       color: #e6e5e3;
       font-family: 'kallisto', sans-serif;
   }
@@ -486,8 +562,7 @@ height: 100%;
   margin-bottom: 25px;
 }
 .preventivo {
-
-  margin-top: 50px;
+    margin-top: 0;
     margin-bottom: 110px;
     margin-inline: 5vw;
 }
