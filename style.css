@@ -120,6 +120,7 @@ cursor: pointer;
   margin-top: 65px;
   margin-bottom: 50px;
   margin-inline: 5vw;
+
 }
 
 .about h1{  font-family: 'kallisto', sans-serif;
@@ -132,8 +133,57 @@ cursor: pointer;
   line-height:1.6;}
 /* about end */
 
+.grid {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.panel {
+    background: #2e282a;
+    padding-inline: 5vw;
+    padding-block: 20px;
+}
+.col1 {
+    width: 100%;
+    margin-bottom: 35px;
+}
+.col2 {
+    width: 100%;
+    margin-bottom: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-
+.col1 h1{
+  color: #E4DFDA;
+  font-family: 'kallisto', sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+.col1 p{
+  color: #E4DFDA
+}
+.col2 h1{
+  color: #E4DFDA;
+  font-family: 'kallisto', sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+.col2 p{
+  color: #E4DFDA
+}
+.dot {
+    height: 250px;
+    width: 100%;
+    background: blue;
+    text-align: center;
+    display: inline-block;
+    /* margin-right: 5vw; */
+    margin-bottom: 40px;
+    /* margin: 20px; */
+}
+/* about end */
 /* ! hero start */
 .hero {
     width: 100%;
@@ -181,6 +231,7 @@ cursor: pointer;
 
 .materiali{
 margin-inline:5vw;
+padding-bottom: 50px;
 }
 .materiali h1{
     font-family: 'kallisto', sans-serif;
