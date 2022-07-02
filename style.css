@@ -12,6 +12,36 @@ h1{
   margin-bottom: 30px;
 }
 
+.progetti h1{
+  margin-inline:5vw;
+  margin-bottom: 30px
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+
 h2{
   /* padding: 20px; */
   font-size: 28px;
@@ -28,7 +58,7 @@ h3{
   color: white;
 }
 
-hr{margin-inline:5vw;
+hr{
   margin-top: 20px;
   margin-bottom: 20px;
   border-top: 3px solid #2e282a;}
@@ -133,11 +163,7 @@ cursor: pointer;
   line-height:1.6;}
 /* about end */
 
-.grid {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
+
 .panel {
   margin-bottom: 50px;
     background: #2e282a;
@@ -149,6 +175,7 @@ cursor: pointer;
     margin-bottom: 35px;
 }
 .col2 {
+
     width: 100%;
     margin-bottom: -40px;
     display: flex;
@@ -221,7 +248,6 @@ cursor: pointer;
 /* Progettistart */
 .progetti{
 
-  margin-inline: 5vw;
   margin-bottom: 50px;
 }
 
@@ -309,21 +335,6 @@ padding-bottom: 50px;
   color: black;
 }
 
-.grid-container {
-    display: grid;
-    /* height: 238px; */
-    align-content: center;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
 
 @media all and (max-width: 500px) {
   .card-list {
@@ -500,21 +511,7 @@ input.comm.c {
 
 @media screen and (max-width: 992px) {
 
-  .grid-container {
-      display: grid;
-      /* height: 238px; */
-      align-content: center;
-      grid-template-columns: auto auto auto ;
-      gap: 10px;
-      padding: 10px;
-      margin-bottom: 20px;
-  }
 
-  .grid-container > div {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
   h1 {
       /* padding-left: var(--padding-default); */
       font-size: 45px;
@@ -656,6 +653,173 @@ height: 100%;
 
 
 
+
+.center {
+    /* height: 49vh; */
+    /* gap: 45px; */
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image1
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('breccia irpina.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image2
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('breccia irpina2.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image3
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('breccia irpina3.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image1
+{
+  height:18em;
+}
+
+.property-card:hover .property-image2
+{
+  height:18em;
+}
+
+.property-card:hover .property-image3
+{
+  height:18em;
+}
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+.cardp {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* Optional
+
+.property-image-title
+{
+text-align:center;
+position:Relative;
+top:30%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:black;
+font-size:1.2em;
+}
+
+.property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+*/
 
 
 
