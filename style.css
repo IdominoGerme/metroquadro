@@ -25,10 +25,7 @@ h1{
 100% { left: -400%; }
 }
 
-#slider{
-  width: 100%
 
-}
 div#slider { overflow: hidden; }
 div#slider figure img { width: 20%; float: left; }
 div#slider figure {
