@@ -12,10 +12,7 @@ h1{
   margin-bottom: 30px;
 }
 
-.progetti h1{
-  margin-inline:5vw;
-  margin-bottom: 30px
-}
+
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -255,6 +252,7 @@ cursor: pointer;
   font-family: 'kallisto', sans-serif;
   font-weight: 1000;
   font-style: normal;
+  margin-inline:5vw;
 }
 .carousel-item{
   height: 500px;
@@ -262,10 +260,6 @@ cursor: pointer;
 }
 /* progetti end */
 
-.materiali{
-margin-inline:5vw;
-padding-bottom: 50px;
-}
 .materiali h1{
     font-family: 'kallisto', sans-serif;
     font-weight: 1000;
@@ -343,24 +337,22 @@ padding-bottom: 50px;
   }
 }
 /* preventivostart */
-.preventivo{
+.preventivo2{
 
   margin-top: 50px;
     margin-bottom: 130px;
     margin-inline: 5vw;
 }
-.preventivo h1{
+.preventivo2 h1{
   font-family: 'kallisto', sans-serif;
   font-weight: 1000;
   font-style: normal;
-  padding-left: var(--padding-default);
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
-.preventivo p{
+.preventivo2 p{
   font-weight:300;
-  padding-left: var(--padding-default);
   font-size: 20px;
   margin-bottom: 35px;
 }
@@ -369,25 +361,25 @@ input.comm.c {
   height: 150px;
 }
 
-.preventivo label{
+.preventivo2 label{
   font-size: 14px;
   margin-bottom:10px;
   font-family: 'kallisto', sans-serif;
   font-weight: 1000;
   font-style: normal;
 }
-  .preventivo input{
+  .preventivo2 input{
     width: 100%;
     height: 30px;
     margin-bottom: 15px;
-    background-color: #e7e7e7bd;
+    background-color: #eaeaea;
   }
-  .preventivo button {
+  .preventivo2 button {
       /* display: flex; */
       float: right;
       padding: 20px;
       background: #2e282a;
-      color: #e6e5e3;
+      color: #eaeaea;
       font-family: 'kallisto', sans-serif;
   }
 
@@ -660,6 +652,7 @@ height: 100%;
     /* width: 100%; */
     display: flex;
     align-items: center;
+        margin-bottom: 2em;
 }
 
 /* End Non-Essential  */
@@ -682,7 +675,7 @@ height: 100%;
   border-radius:16px;
   overflow:hidden;
   -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow: 15px 15px 27px #1814140d, -15px -15px 27px #1814140d;
 }
 /* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
 
@@ -736,7 +729,8 @@ height: 100%;
 
 .property-description
 {
-  background-color: #FAFAFC;
+  color: #2e282a;
+  background-color: #eaeaea;
   height:12em;
   width:14em;
   position:absolute;
