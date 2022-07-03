@@ -46,14 +46,14 @@ h2{
   padding-left: var(--padding-default);
 }
 
-h3{
+/* h3{
   font-size: 15px;
   margin: auto;
   font-family: 'kallisto', sans-serif;
   font-weight: 600;
   font-style: normal;
   color: white;
-}
+} */
 
 hr{
   margin-top: 20px;
@@ -738,7 +738,7 @@ height: 100%;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  padding: 0.5em 1em;
+  padding: 2em 1em;
   text-align:center;
 }
 
@@ -748,7 +748,7 @@ height: 100%;
 {
   width:1em;
   height:1em;
-  background-color:black;
+  background-color:#2e282a;
   position:absolute;
   bottom:1em;
   left:1em;
@@ -796,28 +796,27 @@ height: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-/* Optional
 
-.property-image-title
-{
-text-align:center;
-position:Relative;
-top:30%;
-opacity:0;
-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
-color:black;
-font-size:1.2em;
+
+.property-description h3{
+
+    font-family: 'kallisto', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size:20px;
+    margin-bottom:5px
+}
+.property-description p{
+
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size:16px
 }
 
-.property-card:hover .property-image-title
-{
-opacity:1;
+
+.testobianco p{
+  color:#eaeaea;
 }
-
-*/
-
-
-
 
 
 
