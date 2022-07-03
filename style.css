@@ -197,7 +197,6 @@ cursor: pointer;
     font-style: normal;
 }
 .col2 p{
-  color: #E4DFDA
 }
 .dot {
     height: 250px;
@@ -253,6 +252,23 @@ cursor: pointer;
   font-weight: 1000;
   font-style: normal;
   margin-inline:5vw;
+}
+.progettiopere h1{
+  font-family: 'kallisto', sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  margin-inline:5vw;
+}
+.progettiopere p{
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 35px;
+  margin-inline:5vw;
+}
+.progettiopere p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 35px;
 }
 .carousel-item{
   height: 500px;
