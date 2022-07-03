@@ -188,9 +188,10 @@ cursor: pointer;
 }
 .col1 p{
   line-height: 1.3;
+  color: #E4DFDA
 }
 .col2 h1{
-  color: #E4DFDA;
+
   font-family: 'kallisto', sans-serif;
     font-weight: 1000;
     font-style: normal;
