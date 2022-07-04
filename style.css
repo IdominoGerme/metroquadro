@@ -4,12 +4,12 @@
 body{font-family:'Roboto',sans-serif;
 font-size:16px;
 color: #2e282a;
-background-color: #E4DFDA;}
+background-color: white;}
 
 h1{
   padding-left: var(--padding-default);
   font-size: 56px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 
@@ -54,11 +54,14 @@ div#slider figure {
 
 
 
-h2{
-  /* padding: 20px; */
-  font-size: 28px;
-  margin: auto;
-  padding-left: var(--padding-default);
+h2 {
+    color: #063F4A;
+    /* padding: 20px; */
+    font-style: bold;
+    font-weight: 600;
+    font-size: 28px;
+    margin: auto;
+    padding-left: var(--padding-default);
 }
 
 /* h3{
@@ -111,7 +114,7 @@ text-transform: uppercase; font-size: 20px;font-weight: bold;
     position: fixed;
     padding: 30px;
     display: flex;
-    background-color: #E4DFDA;
+    background-color: #017783;
     box-shadow: 0px 3px 10px #00000029;
 
     align-items: center;
@@ -149,7 +152,7 @@ text-transform: uppercase; font-size: 20px;font-weight: bold;
   /* padding-top: 15px; */
   margin-inline: 20px;
   text-decoration: none;
-color: #2e282a;
+color:white;
 }
 .menu li a:hover{
 text-decoration: underline;
@@ -178,7 +181,7 @@ cursor: pointer;
 
 .panel {
   margin-bottom: 50px;
-    background: #2e282a;
+    background: #063F4A;
     padding-inline: 5vw;
     padding-block: 20px;
 }
@@ -196,14 +199,14 @@ cursor: pointer;
 }
 
 .col1 h1{
-  color: #E4DFDA;
+  color: white;
   font-family: 'kallisto', sans-serif;
     font-weight: 1000;
     font-style: normal;
 }
 .col1 p{
   line-height: 1.3;
-  color: #E4DFDA
+  color: white;
 }
 .col2 h1{
 
@@ -231,16 +234,17 @@ cursor: pointer;
 /* about end */
 /* ! hero start */
 .hero {
-    width: 100%;
-    height: 715px;
-    /* background: #4754; */
-    display: flex;
-    align-items: center;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.09)),
-  url('pietra2.gif')repeat center;
-    background-size: contain;
-    filter: invert(1);
-}
+      width: 100%;
+      height: 715px;
+      /* background: #4754; */
+      display: flex;
+      align-items: center;
+      background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.09)),
+    url('pietra2.gif')no-repeat center center;
+      background-size: cover;
+      /* filter: invert(1); */
+  }
+
 .hero__content {
     width: 100%;
     color: white;
@@ -269,6 +273,7 @@ cursor: pointer;
   margin-inline:5vw;
 }
 .progettiopere h1{
+  color: #063F4A;
   font-family: 'kallisto', sans-serif;
   font-weight: 1000;
   font-style: normal;
@@ -364,12 +369,7 @@ cursor: pointer;
 }
 
 
-@media all and (max-width: 500px) {
-  .card-list {
-    /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
-  }
-}
+
 /* preventivostart */
 .preventivo2{
 
@@ -378,6 +378,7 @@ cursor: pointer;
     margin-inline: 5vw;
 }
 .preventivo2 h1{
+  color: #063F4A;
   font-family: 'kallisto', sans-serif;
   font-weight: 1000;
   font-style: normal;
@@ -402,21 +403,25 @@ input.comm.c {
   font-weight: 1000;
   font-style: normal;
 }
-  .preventivo2 input{
+.preventivo2 input {
     width: 100%;
     height: 30px;
+    border-style: none;
     margin-bottom: 15px;
-    background-color: #eaeaea;
-  }
-  .preventivo2 button {
-      /* display: flex; */
-      float: right;
-      padding: 20px;
-      background: #2e282a;
-      color: #eaeaea;
-      font-family: 'kallisto', sans-serif;
-  }
-
+    background-color: #01778333;
+}
+.preventivo2 button {
+    border-radius: 155px;
+    /* display: flex; */
+    float: right;
+    padding-block: 20px;
+    padding-inline: 50px;
+    background: #017783;
+    color: white;
+    font-weight: bold;
+    font-family: 'kallisto', sans-serif;
+    border-style: none;
+}
   .comm{
     height: 100px;
   }
@@ -454,7 +459,7 @@ input.comm.c {
   top: 0;
   left: 0;
   display: flex;
-  background #E4DFDA; 0% 0% no-repeat padding-box;
+  background:white;
   box-shadow: 0px 0px 10px #00000029;
   opacity: 0.9;
 }
@@ -470,13 +475,13 @@ input.comm.c {
   padding-right: 40px;
 }
 
-.footer_menu li a{
-  font-family: 'kallisto', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  display:block; ;
-  text-decoration: none;
-  color: #2e282a;
+.footer_menu li a {
+    font-family: 'kallisto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: block;
+    text-decoration: none;
+    color: #017783;
 }
 
 .footer_menu li a:hover{
@@ -485,7 +490,9 @@ input.comm.c {
   font-style: normal;
   text-decoration: underline;
   cursor: pointer;
-  background-color: #2e282a;
+  color:white;
+  background-color: #017783;
+
   color: #e6e5e3;}
 
   .footer_menu {
@@ -494,11 +501,11 @@ input.comm.c {
       justify-content: center;
   }
 .footer2{
-  background-color: #2e282a;
+  background-color: #017783;
   padding: 10px;
   text-align: center;
   justify-content: center;
-  color: #e7e7e7bd;
+  color:white;
   font-family: 'kallisto', sans-serif;
   font-weight: 1000;
   font-style: normal;
@@ -568,7 +575,6 @@ font-style:bold;
       /* top: 0; */
       /* left: 0; */
       display: flex;
-      background-color: #E4DFDA;
       box-shadow: 0px 3px 10px #00000029;
       /* align-content: center; */
       /* flex-direction: row; */
@@ -587,7 +593,7 @@ font-style:bold;
     z-index: 4
   }
 .ham span{
-  background: #2e282a; height: 4px;width: 100%; display: block; margin-bottom: 5px;
+  background: white; height: 4px;width: 100%; display: block; margin-bottom: 5px;
 }
 
 .logo img {
@@ -603,6 +609,16 @@ font-style:bold;
     margin-bottom: 25px;
 }
 
+.progettiopere p{
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 35px;
+  margin-inline:5vw;
+}
+
+.preventivo2 p{
+  font-size: 13px;
+}
 .footer_menu {
     width: 100%;
     display: flex;
@@ -622,7 +638,7 @@ font-style:bold;
     position: absolute;
     top: 0;
     left: 100%;
-    background: #2e282aba;
+    background: #2f343ae0;
     height: 100vh;
     flex-direction: column;
     align-items: flex-start;
@@ -634,6 +650,14 @@ font-style:bold;
     display: block;
     margin-bottom: 40px;
 }
+
+.panel h1{
+  font-size: 30px;
+}
+
+.col1 p{
+  font-size: 13px;
+}
 .menu li a {
     font-family: 'kallisto', sans-serif;
     font-weight: 800;
@@ -642,13 +666,13 @@ font-style:bold;
     /* padding-top: 15px; */
     margin-inline: 20px;
     text-decoration: none;
-    color: #e4dfda;
+    color: white;
     font-size: 25px;
 }
 
 .about p {
     font-family: 'Roboto',sans-serif;
-    font-size: 16px
+    font-size: 13px
   margin-top: 10px;
     line-height: 1.3;
 }
@@ -685,11 +709,7 @@ height: 100%;
 
 
 
-@media screen and (max-width: 332px) {
-.big-text{
-  font-size: 44px;
-}
-}
+
 
 
 
@@ -757,7 +777,7 @@ height: 100%;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('breccia irpina2.jpeg');
+  background-image:url('breccia piconata.jpg');
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -772,7 +792,7 @@ height: 100%;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('breccia irpina3.jpeg');
+  background-image:url('breccia bocciardata.jpg');
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -782,7 +802,7 @@ height: 100%;
 .property-description
 {
   color: #2e282a;
-  background-color: #eaeaea;
+  background-color: white;
   height:12em;
   width:14em;
   position:absolute;
