@@ -226,7 +226,7 @@ cursor: pointer;
       display: flex;
       align-items: center;
       background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.09)),
-    url('pietra2.gif')no-repeat center center;
+    url('pietra.gif')no-repeat center center;
       background-size: cover;
       /* filter: invert(1); */
   }
